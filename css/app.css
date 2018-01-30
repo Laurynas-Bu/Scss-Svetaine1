@@ -3757,4 +3757,47 @@
   clip: auto;
 }
 
+/* line 1, C:/Users/Lau/Desktop/Projektai/Front-end/Php Storm/Svetaine2/sass/Layout/header.scss */
+.header {
+  width: 100%;
+  min-height: 60px;
+  background-color: #28b6f6;
+  color: #000000;
+}
+
+/* line 8, C:/Users/Lau/Desktop/Projektai/Front-end/Php Storm/Svetaine2/sass/Layout/header.scss */
+.header .menu .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* line 12, C:/Users/Lau/Desktop/Projektai/Front-end/Php Storm/Svetaine2/sass/Layout/header.scss */
+.header .menu .dropdown .dropdown-content {
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* line 10, C:/Users/Lau/Desktop/Projektai/Front-end/Php Storm/Svetaine2/sass/app.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 16, C:/Users/Lau/Desktop/Projektai/Front-end/Php Storm/Svetaine2/sass/app.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 21, C:/Users/Lau/Desktop/Projektai/Front-end/Php Storm/Svetaine2/sass/app.scss */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=../css/app.map */
