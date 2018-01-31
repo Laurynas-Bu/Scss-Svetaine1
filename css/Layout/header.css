@@ -1,0 +1,56 @@
+/* line 1, C:/Users/L/Desktop/Dabar/Front-End/Php-storm/Svetaine2/sass/Layout/header.scss */
+.header {
+  width: 100%;
+  min-height: 60px;
+}
+
+/* line 5, C:/Users/L/Desktop/Dabar/Front-End/Php-storm/Svetaine2/sass/Layout/header.scss */
+.header .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 13, C:/Users/L/Desktop/Dabar/Front-End/Php-storm/Svetaine2/sass/Layout/header.scss */
+.header .dropbtn .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* line 18, C:/Users/L/Desktop/Dabar/Front-End/Php-storm/Svetaine2/sass/Layout/header.scss */
+.header .dropbtn .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* line 26, C:/Users/L/Desktop/Dabar/Front-End/Php-storm/Svetaine2/sass/Layout/header.scss */
+.header .dropbtn .dropdown-content .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* line 32, C:/Users/L/Desktop/Dabar/Front-End/Php-storm/Svetaine2/sass/Layout/header.scss */
+.header .dropbtn .dropdown-content .dropdown-content a .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* line 35, C:/Users/L/Desktop/Dabar/Front-End/Php-storm/Svetaine2/sass/Layout/header.scss */
+.header .dropbtn .dropdown-content .dropdown-content a .dropdown-content a:hover .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* line 38, C:/Users/L/Desktop/Dabar/Front-End/Php-storm/Svetaine2/sass/Layout/header.scss */
+.header .dropbtn .dropdown-content .dropdown-content a .dropdown-content a:hover .dropdown:hover .dropdown-content .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/*# sourceMappingURL=../../css/Layout/header.map */

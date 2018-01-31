@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../sass/Layout/header.css",
+	"sources": [
+		"../../sass/Layout/header.scss"
+	],
+	"sourcesContent": [
+		".header {\r\n  width: 100%;\r\n  min-height: 60px;\r\n\r\n  .dropbtn {\r\n    background-color: #4CAF50;\r\n    color: white;\r\n    padding: 16px;\r\n    font-size: 16px;\r\n    border: none;\r\n    cursor: pointer;\r\n\r\n    .dropdown {\r\n      position: relative;\r\n      display: inline-block;\r\n    }\r\n\r\n    .dropdown-content {\r\n      display: none;\r\n      position: absolute;\r\n      background-color: #f9f9f9;\r\n      min-width: 160px;\r\n      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);\r\n      z-index: 1;\r\n\r\n      .dropdown-content a {\r\n        color: black;\r\n        padding: 12px 16px;\r\n        text-decoration: none;\r\n        display: block;\r\n\r\n        .dropdown-content a:hover {\r\n          background-color: #f1f1f1;\r\n\r\n          .dropdown:hover .dropdown-content {\r\n            display: block;\r\n\r\n            .dropdown:hover .dropbtn {\r\n              background-color: #3e8e41;\r\n\r\n            }\r\n          }\r\n        }\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+	],
+	"mappings": ";AAAA,AAAA,OAAO,CAAC;EACN,KAAK,EAAE,IAAK;EACZ,UAAU,EAAE,IAAK;CA4ClB;;;AA9CD,AAIE,OAJK,CAIL,QAAQ,CAAC;EACP,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAAE,KAAM;EACb,OAAO,EAAE,IAAK;EACd,SAAS,EAAE,IAAK;EAChB,MAAM,EAAE,IAAK;EACb,MAAM,EAAE,OAAQ;CAmCjB;;;AA7CH,AAYI,OAZG,CAIL,QAAQ,CAQN,SAAS,CAAC;EACR,QAAQ,EAAE,QAAS;EACnB,OAAO,EAAE,YAAa;CACvB;;;AAfL,AAiBI,OAjBG,CAIL,QAAQ,CAaN,iBAAiB,CAAC;EAChB,OAAO,EAAE,IAAK;EACd,QAAQ,EAAE,QAAS;EACnB,gBAAgB,EAAE,OAAQ;EAC1B,SAAS,EAAE,KAAM;EACjB,UAAU,EAAE,CAAC,CAAC,GAAG,CAAC,IAAI,CAAC,CAAC,CAAC,kBAAI;EAC7B,OAAO,EAAE,CAAE;CAqBZ;;;AA5CL,AAyBwB,OAzBjB,CAIL,QAAQ,CAaN,iBAAiB,CAQf,iBAAiB,CAAC,CAAC,CAAC;EAClB,KAAK,EAAE,KAAM;EACb,OAAO,EAAE,SAAU;EACnB,eAAe,EAAE,IAAK;EACtB,OAAO,EAAE,KAAM;CAchB;;;AA3CP,AA+B2B,OA/BpB,CAIL,QAAQ,CAaN,iBAAiB,CAQf,iBAAiB,CAAC,CAAC,CAMjB,iBAAiB,CAAC,CAAC,AAAA,MAAM,CAAC;EACxB,gBAAgB,EAAE,OAAQ;CAU3B;;;AA1CT,AAkC0B,OAlCnB,CAIL,QAAQ,CAaN,iBAAiB,CAQf,iBAAiB,CAAC,CAAC,CAMjB,iBAAiB,CAAC,CAAC,AAAA,MAAM,CAGvB,SAAS,AAAA,MAAM,CAAC,iBAAiB,CAAC;EAChC,OAAO,EAAE,KAAM;CAMhB;;;AAzCX,AAqC4B,OArCrB,CAIL,QAAQ,CAaN,iBAAiB,CAQf,iBAAiB,CAAC,CAAC,CAMjB,iBAAiB,CAAC,CAAC,AAAA,MAAM,CAGvB,SAAS,AAAA,MAAM,CAAC,iBAAiB,CAG/B,SAAS,AAAA,MAAM,CAAC,QAAQ,CAAC;EACvB,gBAAgB,EAAE,OAAQ;CAE3B",
+	"names": []
+}

@@ -1,24 +1,64 @@
 .header {
   width: 100%;
   min-height: 60px;
-  background-color: $sky-blue;
+  background-color: $blue;
   color: $black;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
 
-  .menu {
-    .dropdown {
-      position: relative;
-      display: inline-block;
-
-      .dropdown-content {
-        color: white;
-        display: inline-block;
-        position: relative;
-        padding: 16px;
-        font-size: 16px;
-        cursor: pointer;
-
-      }
-    }
+  .logo {
+    float: left;
+    position: relative;
+    top: 8.5px;
 
   }
+
+  .dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    float: right;
+    line-height: 60px;
+
+  }
+
+  .dropdown {
+    position: relative;
+    float: right;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ef8f04;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 20px;
+
+    a {
+      color: $white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+
+      &:hover {
+        background-color: #f6dd6d;
+      }
+    }
+  }
+
+  .dropdown:hover {
+    .dropdown-content {
+      display: block;
+    }
+  }
+  .clear {
+    clear: both;
+  }
 }
+
+
+
