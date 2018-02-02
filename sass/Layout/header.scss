@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  min-height: 60px;
+  max-height: 60px;
   background-color: $blue;
   color: $black;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
@@ -14,7 +14,7 @@
   }
 
   .dropbtn {
-    color: white;
+    color: $white;
     font-size: 16px;
     border: none;
     background-color: transparent;
@@ -35,8 +35,7 @@
     background-color: #ef8f04;
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    top: 20px;
+    top: 45px;
 
     a {
       color: $white;
@@ -45,7 +44,7 @@
       display: block;
 
       &:hover {
-        background-color: #f6dd6d;
+        background-color: #f0cb0a;
       }
     }
   }

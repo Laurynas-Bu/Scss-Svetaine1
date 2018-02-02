@@ -1,16 +1,18 @@
 //Import font-awesome
 
 @import "variables";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 @import "vendor/font-awesome/font-awesome";
+@import "Layout/header.scss";
 @import "Layout/_content.scss";
 @import "Layout/footer.scss";
-@import "Layout/header.scss";
 
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 html, body {
