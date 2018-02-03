@@ -3901,7 +3901,7 @@
 /* line 1, C:/Users/L/Desktop/Dabar/Front-End/Php-storm/Svetaine2/sass/Layout/footer.scss */
 .footer {
   width: 100%;
-  height: 250px;
+  height: 230px;
   background-color: #ff9700;
   color: #ffffff;
 }
@@ -3956,6 +3956,20 @@
   text-align: left;
   font-size: 12pt;
   line-height: 150%;
+}
+
+/* line 45, C:/Users/L/Desktop/Dabar/Front-End/Php-storm/Svetaine2/sass/Layout/footer.scss */
+.bottom {
+  width: 100%;
+  height: 60px;
+  background-color: #ef8f04;
+  color: #ffffff;
+}
+
+/* line 52, C:/Users/L/Desktop/Dabar/Front-End/Php-storm/Svetaine2/sass/Layout/footer.scss */
+span {
+  font-weight: 300;
+  line-height: 60px;
 }
 
 /* line 11, C:/Users/L/Desktop/Dabar/Front-End/Php-storm/Svetaine2/sass/app.scss */
